@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We are creating a string variable called name with the value of Dane.
-// Using a conditional to see if the name variable is exactly equal to Mary, the console would output "Hi, Mary!"
+// A string variable called name is declared with the value of Dane.
+// Using a conditional if statement to see if the name variable is exactly equal to Mary.  If so the console would output "Hi, Mary!"
 // Since this is false, it moves to the else statment which would give us the output "How do you do?" in our console log.
 //
 
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// A variable with the name "secret" is declares but has not yet been given a value.
-// A variable named "code" is declared and given a number value of 123.
-// A conditional statment says if the code variable is an exact match to 123, then the secret variable will have a value of super and the code variable will multiply itself.
+// A variable with the name secret is declared but has not yet been given a value.
+// A variable named code is declared and given a number value of 123.
+// A conditional statment says if the code variable is an exact match to 123, then the secret variable will be given a string value of super and the code variable will multiply by 2.
 // An additional conditional if statment says if the code variable is greater than 250, then the secret variable will have a value of duper.
 // Since the code value is 246,  the secret variable will output "super" on the console log.
 
@@ -77,7 +77,7 @@ console.log(secret)
 // A conditional statment is written stating if the isStudent variable is true AND the zip variable is greater than 80000, then the console log would output `You're a student on the West Coast!`
 // Since this is false, it would move onto the else if statement of if isStudent equals false OR the age value is smaller then 30 the console log would output 'What are your hobbies?'
 // Since this is also false, it moves to the next else if of if the isStudent variable is true, then the console log would output "Welcome to Prime!"
-// This else statment is true so the console log would output "Welcome to Prime!"
+// This else if statment is true so the console log would output "Welcome to Prime!"
 // Since the previous statement was true the final else statment is irrelevent.
 
 //CODE
@@ -141,7 +141,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - Only colorOne has changed its value to purple.  Need to change colorTwo to purple as well.
+// FIX - Only colorOne has changed its value to purple.  Need to change the value of colorTwo to purple as well.
 if (mix === true) {
   colorOne = 'purple';
 // FIX - colorTwo = "purple";
